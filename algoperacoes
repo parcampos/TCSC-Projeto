@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+    
+    double a=0, b=0, op, res;
+    
+    printf("Informe Numero A: ");
+     scanf("%lf", &a);
+    printf("Informe Numero B: ");
+     scanf("%lf", &b);
+     
+    printf("\n\nEscolha uma das opcoes");
+    printf("\n1:Somar \n2:Dividir \n3:Multiplicar \n4:Subtrair \n\n");
+     scanf("%lf", &op);
+    
+    printf("\n\n");
+    
+    switch(op>0){
+               case 1: res = a + b;
+                    printf("Resultado da Soma eh: %0.0lf + %0.0lf = %0.2lf\n\n", a, b , res);
+                    break;
+               }
+    
+    system("Pause");
+}
