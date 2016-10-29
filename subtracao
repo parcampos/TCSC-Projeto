@@ -1,0 +1,4 @@
+case 4: res = a - b;
+                    printf("Resultado da Subtração eh: %0.0lf + %0.0lf = %0.2lf\n\n", a, b , res);
+                     break;
+                }
